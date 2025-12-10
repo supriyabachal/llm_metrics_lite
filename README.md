@@ -43,7 +43,7 @@ Run directly from terminal against files
 Zero Heavy Dependencies
 Portable, lightweight, easy to extend
 
-📦 Installation
+ Installation
 pip install llm-metrics-lite
 
 
@@ -68,7 +68,7 @@ context_text = "AI models are capable of understanding language and generating r
 result = evaluate_output(output_text, context_text=context_text, perplexity_model=ppl_model)
 print(result)
 
-🖥 CLI Usage
+ CLI Usage
 Evaluate directly from text files
 llm-metrics-lite evaluate output.txt
 

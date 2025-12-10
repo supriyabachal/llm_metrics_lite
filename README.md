@@ -37,7 +37,7 @@ Measure latency around inference calls
  Token Statistics
 Word count, character count, token approximation
 
-🖥 CLI Interface
+ CLI Interface
 Run directly from terminal against files
 
 Zero Heavy Dependencies

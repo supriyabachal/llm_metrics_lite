@@ -1,4 +1,8 @@
 # llm-metrics-lite
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen)
+
 llm-metrics-lite provides a clean, dependency-minimal Python toolkit to evaluate generated text from Large Language Models (LLMs).
 It offers coherence, perplexity, groundedness/factuality heuristics, token statistics, and CLI support — all in a fast and portable package.
 

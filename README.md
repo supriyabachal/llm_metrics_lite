@@ -50,3 +50,125 @@ Install from PyPI:
 
 ```bash
 pip install llm-metrics-lite
+
+# llm-metrics-lite
+
+A lightweight, dependency-minimal evaluation toolkit for Large Language Model (LLM) output quality.
+
+## Why This Library Exists
+
+Existing LLM evaluation tools often:
+
+- require large models or embeddings  
+- are part of heavy research frameworks  
+- depend on GPU or complex installations  
+- lack simple, general-purpose APIs  
+
+llm-metrics-lite was created to be:
+
+- minimal and fast  
+- easy to install anywhere  
+- suitable for research and production  
+- extendable and open-source  
+
+## Features
+
+### Core Capabilities
+
+- **Coherence Scoring**  
+  Measures similarity between consecutive sentences to estimate textual flow.
+
+- **Reference-Free Perplexity**  
+  Character-level n-gram perplexity that works without any pretrained models.
+
+- **Groundedness and Factuality Checks**  
+  Compares model output against reference context for basic factual alignment.
+
+- **Latency Measurement**  
+  Simple utilities to benchmark model inference time.
+
+- **Token Statistics**  
+  Word count, character count, and approximate token usage.
+
+- **Command Line Interface (CLI)**  
+  Evaluate text files directly in the terminal.
+
+### Why it is lightweight
+
+- Zero heavy dependencies  
+- No transformers, no GPU required  
+- Pure Python implementation  
+
+## Quick Start
+
+Install from PyPI:
+
+```
+pip install llm-metrics-lite
+```
+
+Install from source:
+
+```
+git clone https://github.com/supriyabachal/llm_metrics_lite.git
+cd llm_metrics_lite
+pip install -e .
+```
+
+## Examples
+
+### Basic Python Usage
+
+```python
+from llm_metrics_lite import train_default_perplexity_model, evaluate_output
+
+corpus = [
+    "Artificial intelligence enables machines to learn from data.",
+    "Language models process and generate human-like text."
+]
+
+model = train_default_perplexity_model(corpus)
+
+output = "Generative AI models help automate reasoning tasks."
+context = "AI systems can understand language and produce responses."
+
+result = evaluate_output(
+    output_text=output,
+    context_text=context,
+    perplexity_model=model
+)
+
+print(result)
+```
+
+## CLI Usage
+
+Evaluate output text:
+
+```
+llm-metrics-lite evaluate output.txt
+```
+
+Evaluate with context reference:
+
+```
+llm-metrics-lite evaluate output.txt --context reference.txt
+```
+
+Show help:
+
+```
+llm-metrics-lite --help
+```
+
+## Roadmap
+
+Planned enhancements include:
+
+- Embedding-based coherence evaluation  
+- Semantic groundedness metrics  
+- Batch evaluation support  
+- Model-output comparison tools  
+- Evaluation dashboard and visualizations  
+- Integration helpers for RAG pipelines  
+

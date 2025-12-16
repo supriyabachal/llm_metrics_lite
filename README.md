@@ -154,6 +154,7 @@ Evaluate with context reference:
 ```
 llm-metrics-lite evaluate output.txt --context reference.txt
 ```
+<<<<<<< HEAD
 
 Show help:
 
@@ -172,3 +173,22 @@ Planned enhancements include:
 - Evaluation dashboard and visualizations  
 - Integration helpers for RAG pipelines  
 
+=======
+
+Show help:
+
+```
+llm-metrics-lite --help
+```
+
+## Roadmap
+
+Planned enhancements include:
+
+- Embedding-based coherence evaluation  
+- Semantic groundedness metrics  
+- Batch evaluation support  
+- Model-output comparison tools  
+- Evaluation dashboard and visualizations  
+- Integration helpers for RAG pipelines  
+>>>>>>> e865a9f (Add new evaluation metrics and example notebooks)

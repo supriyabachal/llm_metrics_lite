@@ -1,11 +1,19 @@
-[build-system]
-requires=["setuptools>=61.0"]
-build-backend="setuptools.build_meta"
-
 [project]
-name="llm-metrics-lite"
-version="0.1.0"
-description="Lightweight LLM metrics"
-authors=[{name="Supriya Bachal"}]
-requires-python=">=3.8"
-license={text="MIT"}
+name = "llm-metrics-lite"
+version = "0.2.0"
+description = "A lightweight evaluation toolkit for LLM outputs including coherence, perplexity, groundedness and token metrics."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Supriya Bachal", email = "your-email@example.com" }
+]
+requires-python = ">=3.8"
+keywords = ["LLM", "evaluation", "metrics", "AI", "NLP", "coherence", "perplexity"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+

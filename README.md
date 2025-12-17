@@ -154,9 +154,6 @@ Evaluate with context reference:
 ```
 llm-metrics-lite evaluate output.txt --context reference.txt
 ```
-<<<<<<< HEAD
-
-Show help:
 
 ```
 llm-metrics-lite --help

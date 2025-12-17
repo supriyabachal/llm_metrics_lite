@@ -170,7 +170,7 @@ Planned enhancements include:
 - Evaluation dashboard and visualizations  
 - Integration helpers for RAG pipelines  
 
-=======
+
 
 Show help:
 

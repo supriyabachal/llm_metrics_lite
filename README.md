@@ -191,4 +191,3 @@ Planned enhancements include:
 - Model-output comparison tools  
 - Evaluation dashboard and visualizations  
 - Integration helpers for RAG pipelines  
->>>>>>> e865a9f (Add new evaluation metrics and example notebooks)

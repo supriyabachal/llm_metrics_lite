@@ -2,6 +2,9 @@
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Status](https://img.shields.io/badge/Project-Active-brightgreen)
+[![PyPI version](https://img.shields.io/pypi/v/llm-metrics-lite)](https://pypi.org/project/llm-metrics-lite/)
+[![Downloads](https://img.shields.io/pypi/dm/llm-metrics-lite)](https://pypi.org/project/llm-metrics-lite/)
+PyPI: https://pypi.org/project/llm-metrics-lite/
 
 <h1 align="center">
   <br>

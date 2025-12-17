@@ -4,6 +4,13 @@
 ![Status](https://img.shields.io/badge/Project-Active-brightgreen)
 [![PyPI version](https://img.shields.io/pypi/v/llm-metrics-lite)](https://pypi.org/project/llm-metrics-lite/)
 [![Downloads](https://img.shields.io/pypi/dm/llm-metrics-lite)](https://pypi.org/project/llm-metrics-lite/)
+# llm-metrics-lite
+
+[![PyPI version](https://img.shields.io/pypi/v/llm-metrics-lite)]
+[![Downloads](https://img.shields.io/pypi/dm/llm-metrics-lite)]
+[![Python](https://img.shields.io/pypi/pyversions/llm-metrics-lite)]
+[![License](https://img.shields.io/github/license/supriyabachal/llm_metrics_lite)]
+
 PyPI: https://pypi.org/project/llm-metrics-lite/
 
 <h1 align="center">

@@ -1,11 +1,17 @@
 [project]
 name = "llm-metrics-lite"
 version = "0.2.0"
-description = "A lightweight evaluation toolkit for LLM outputs including coherence, perplexity, groundedness and token metrics."
+description = "Lightweight evaluation metrics for large language models"
 readme = "README.md"
 license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://github.com/supriyabachal/llm_metrics_lite"
+Repository = "https://github.com/supriyabachal/llm_metrics_lite"
+Issues = "https://github.com/supriyabachal/llm_metrics_lite/issues"
+Documentation = "https://github.com/supriyabachal/llm_metrics_lite#readme"
 authors = [
-    { name = "Supriya Bachal", email = "your-email@example.com" }
+    { name = "Supriya Bachal", email = "supriyabachal@gmail.com" }
 ]
 requires-python = ">=3.8"
 keywords = ["LLM", "evaluation", "metrics", "AI", "NLP", "coherence", "perplexity"]

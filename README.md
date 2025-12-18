@@ -184,13 +184,3 @@ Show help:
 llm-metrics-lite --help
 ```
 
-## Roadmap
-
-Planned enhancements include:
-
-- Embedding-based coherence evaluation  
-- Semantic groundedness metrics  
-- Batch evaluation support  
-- Model-output comparison tools  
-- Evaluation dashboard and visualizations  
-- Integration helpers for RAG pipelines  

@@ -10,18 +10,26 @@ authors = [
   { name = "Supriya Bachal", email = "supriyabachal@gmail.com" }
 ]
 
+keywords = [
+  "LLM",
+  "evaluation",
+  "metrics",
+  "AI",
+  "NLP",
+  "coherence",
+  "perplexity"
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
 [project.urls]
 Homepage = "https://github.com/supriyabachal/llm_metrics_lite"
 Repository = "https://github.com/supriyabachal/llm_metrics_lite"
 Issues = "https://github.com/supriyabachal/llm_metrics_lite/issues"
 Documentation = "https://pypi.org/project/llm-metrics-lite/"
-requires-python = ">=3.8"
-keywords = ["LLM", "evaluation", "metrics", "AI", "NLP", "coherence", "perplexity"]
-
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-    "Topic :: Scientific/Engineering :: Artificial Intelligence",
-]
-

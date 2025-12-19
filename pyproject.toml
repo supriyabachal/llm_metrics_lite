@@ -1,18 +1,20 @@
 [project]
 name = "llm-metrics-lite"
 version = "0.2.1"
-description = "Lightweight evaluation metrics for large language models"
+description = "A lightweight evaluation framework for large language model outputs"
 readme = "README.md"
+requires-python = ">=3.8"
 license = { text = "MIT" }
+
+authors = [
+  { name = "Supriya Bachal", email = "supriyabachal@gmail.com" }
+]
 
 [project.urls]
 Homepage = "https://github.com/supriyabachal/llm_metrics_lite"
 Repository = "https://github.com/supriyabachal/llm_metrics_lite"
 Issues = "https://github.com/supriyabachal/llm_metrics_lite/issues"
-Documentation = "https://github.com/supriyabachal/llm_metrics_lite#readme"
-authors = [
-    { name = "Supriya Bachal", email = "supriyabachal@gmail.com" }
-]
+Documentation = "https://pypi.org/project/llm-metrics-lite/"
 requires-python = ">=3.8"
 keywords = ["LLM", "evaluation", "metrics", "AI", "NLP", "coherence", "perplexity"]
 

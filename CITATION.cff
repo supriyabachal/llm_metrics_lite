@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "LLM-Metrics-Lite: A Lightweight Evaluation Framework for Large Language Model Outputs"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Bachal
+    given-names: Supriya
+repository-code: "https://github.com/supriyabachal/llm_metrics_lite"
+url: "https://pypi.org/project/llm-metrics-lite/"
+abstract: >
+  LLM-Metrics-Lite is a lightweight, model-agnostic evaluation framework
+  for large language model outputs, providing interpretable quality,
+  uncertainty, latency, and cost metrics.
+keywords:
+  - large language models
+  - evaluation
+  - NLP metrics
+  - LLMOps
+  - software engineering
+license: MIT
+version: 0.2.0
+date-released: 2024-12-01

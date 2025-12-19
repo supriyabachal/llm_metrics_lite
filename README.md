@@ -4,6 +4,8 @@
 ![Status](https://img.shields.io/badge/Project-Active-brightgreen)
 [![PyPI version](https://img.shields.io/pypi/v/llm-metrics-lite)](https://pypi.org/project/llm-metrics-lite/)
 [![Downloads](https://img.shields.io/pypi/dm/llm-metrics-lite)](https://pypi.org/project/llm-metrics-lite/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17992502.svg)](https://doi.org/10.5281/zenodo.17992502)
+
 # llm-metrics-lite
 
 
